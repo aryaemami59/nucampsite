@@ -69,3 +69,11 @@ a:hover {
 .hover-transform {
   transition: transform 0.2s ease-in-out;
 }
+
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.right {
+  right: 0;
+}
