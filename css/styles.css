@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(to left, #182848, #4b6cb7);
 }
 
 h1,
@@ -8,10 +9,13 @@ h3 {
   font-family: "Lobster", cursive;
 }
 
-h2 {
-  color: #3046c5;
-}
+/* h2 {
+  /* color: #3046c5; */
+/* } */
 
+/* h3 {
+  color: white;
+} */
 header h2 {
   color: #cec8ff;
 }
@@ -82,10 +86,34 @@ a:hover {
 
 .text-shadow {
   text-shadow: black 1px 1px 0.25em;
+  /* text-shadow: #901cad 1px 1px 0.25em; */
   /* text-shadow: #901cad 1px 1px 10px; */
+}
+
+.text-shadow-50 {
+  text-shadow: black 1px 1px 0.1em;
+  /* text-shadow: #901cad 1px 1px 0.25em; */
+  /* text-shadow: #901cad 1px 1px 10px; */
+}
+
+a.hover-purple:hover {
+  text-shadow: #901cad 1px 1px 0.25em;
+  color: #3046c5 !important;
 }
 
 .box-shadow {
   box-shadow: black 1px 1px 0.75em -2px;
   /* box-shadow: black 1px 1px 15px -2px; */
+}
+
+.text-shadow-white {
+  text-shadow: white 1px 1px 0.25em;
+}
+
+.text-shadow-50-white {
+  text-shadow: white 1px 1px 0.02em;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
