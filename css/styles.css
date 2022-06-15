@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(to left, #182848, #4b6cb7);
+  /* background: linear-gradient(to top, #2c3e50, #bdc3c7); */
+  background: linear-gradient(to top, #2e1437, #948e99);
+  /* background: linear-gradient(to bottom, #f8cdda, #1d2b64); */
 }
 
 h1,
@@ -61,7 +63,7 @@ a:hover {
 }
 
 .carousel {
-  border: solid #5637dd;
+  /* border: solid #5637dd; */
 }
 
 .hover-transform:hover {
@@ -116,4 +118,90 @@ a.hover-purple:hover {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.custom-gradient {
+  background: linear-gradient(to left, #26d0ce, #1a2980);
+}
+
+.custom-gradient-2 {
+  background: linear-gradient(90deg, #7b81ec, #3bd1d3);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  transition: all 0.2s ease-in-out;
+  /* border: 6px solid rgba(255, 255, 255, 0.45); */
+  /* background: linear-gradient(to bottom, #0083b0, #00b4db); */
+  /* background: linear-gradient(to right, #d3cce3, #e9e4f0); */
+  /* background: linear-gradient(
+    to bottom,
+    hsl(160, 50%, 53%),
+    hsl(169, 100%, 87%)
+  );
+  border-color: hsl(160, 50%, 53%);
+  transition: all 0.2s ease-in-out; */
+}
+
+.custom-gradient-2:hover {
+  box-shadow: black 1px 1px 0.75em -5px;
+  background: linear-gradient(90deg, #7b81ec, hsl(181, 63%, 46%));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  border: 6px solid rgba(255, 255, 255, 0.45);
+  /* background: linear-gradient(
+    to bottom,
+    hsl(160, 50%, 46%),
+    hsl(169, 100%, 80%)
+  );
+  border-color: hsl(160, 50%, 50%);
+  box-shadow: black 1px 1px 0.75em -5px; */
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.custom-gradient-2:active {
+  box-shadow: black 1px 1px 0.75em -3px;
+  background: linear-gradient(90deg, #7b81ec, hsl(181, 63%, 43%));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+}
+
+.custom-gradient-3 {
+  /* background: linear-gradient(to bottom, #aaffa9, #11ffbd); */
+  /* background: linear-gradient(to right, #1cd8d2, #93edc7); */
+  /* background-image: linear-gradient(90deg, #7b81ec, #3bd1d3); */
+  background: linear-gradient(90deg, #7b81ec, #3bd1d3);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  transition: all 0.2s ease-in-out;
+  border: 6px solid rgba(255, 255, 255, 0.45);
+  /* border-color: hsl(181, 63%, 53%); */
+  /* background-color: rgb(0, 184, 249); */
+}
+
+.custom-gradient-3:hover {
+  box-shadow: black 1px 1px 0.75em -5px;
+  background: linear-gradient(90deg, #7b81ec, hsl(181, 63%, 46%));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+}
+
+.custom-gradient-3:active {
+  box-shadow: black 1px 1px 0.75em -3px;
+  background: linear-gradient(90deg, #7b81ec, hsl(181, 63%, 43%));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+}
+
+.rounded-custom {
+  border-radius: 50px;
+}
+
+.custom-background {
+  /* background: linear-gradient(to bottom, #232526, #414345); */
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
 }
