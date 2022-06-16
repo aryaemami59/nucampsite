@@ -14,7 +14,7 @@ header h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background: linear-gradient(to bottom, #2c3e50, #4ca1af);
   padding: 20px 0;
 }
 
@@ -48,7 +48,6 @@ a:hover {
 .carousel {
   border: 6px solid white;
   border-radius: 6px;
-  /* border: solid #5637dd; */
 }
 
 .hover-transform:hover {
@@ -65,6 +64,10 @@ a:hover {
 
 .cursor-zoom-in {
   cursor: zoom-in;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .right {
@@ -93,19 +96,7 @@ a.hover-purple:hover {
 }
 
 .text-shadow-white {
-  text-shadow: white 1px 1px 0.25em;
-}
-
-.text-shadow-50-white {
   text-shadow: white 1px 1px 0.02em;
-}
-
-.text-shadow-25-white {
-  text-shadow: white 0.25px 0.25px 0.02em;
-}
-
-.opacity-50 {
-  opacity: 0.5;
 }
 
 .custom-gradient {
@@ -166,15 +157,6 @@ a.hover-purple:hover {
 
 .rounded-custom {
   border-radius: 50px;
-}
-
-.custom-background {
-  background-color: transparent;
-  background: linear-gradient(to bottom, #ece9e6, #ffffff);
-}
-
-.custom-background-2 {
-  background: linear-gradient(to bottom, #e0eafc, #cfdef3);
 }
 
 .navbar-toggler {
