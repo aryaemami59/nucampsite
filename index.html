@@ -212,7 +212,11 @@
                   data-target="#breadcrumbTrailModal"
                   data-toggle="modal"
                 />
-                <div class="modal fade" id="breadcrumbTrailModal" tabindex="-1">
+                <div
+                  class="modal fade image-modal"
+                  id="breadcrumbTrailModal"
+                  tabindex="-1"
+                >
                   <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                       <img
@@ -247,7 +251,11 @@
                   data-toggle="modal"
                   data-target="#reactLakeModal"
                 />
-                <div class="modal fade" id="reactLakeModal" tabindex="-1">
+                <div
+                  class="modal fade image-modal"
+                  id="reactLakeModal"
+                  tabindex="-1"
+                >
                   <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                       <img
@@ -275,7 +283,11 @@
                   data-target="#chromeRiverModal"
                   data-toggle="modal"
                 />
-                <div class="modal fade" id="chromeRiverModal" tabindex="-1">
+                <div
+                  class="modal fade image-modal"
+                  id="chromeRiverModal"
+                  tabindex="-1"
+                >
                   <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                       <img
@@ -551,6 +563,12 @@
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();
+        $(".image-modal").on("show.bs.modal", () => {
+          $(".carousel").attr("data-interval", "false");
+        });
+        $(".image-modal").on("hide.bs.modal", () => {
+          $(".carousel").attr("data-interval", 5000);
+        });
       });
     </script>
   </body>
